@@ -18,7 +18,7 @@ Choose the JAR file that matches your server platform:
 | **BungeeCord** (proxy only) | [`VoteSpeed-Bungee-1.0.0.jar`](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0) |
 | **Velocity** (proxy only) | [`VoteSpeed-Velocity-1.0.0.jar`](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0) |
 
-> **Not sure which one?** See [Choosing Your JAR](choosing-your-jar.md) for details.
+> **Not sure which one?** See [Choosing Your JAR](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0) for details.
 
 ## Step 2: Install the Plugin
 
