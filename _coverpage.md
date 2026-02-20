@@ -1,8 +1,8 @@
 # VoteSpeed
 
-> The all-in-one vote management plugin for Minecraft servers.
+> All-in-one vote management for Minecraft servers.
 
-Built-in Votifier receiver, reward system, vote shop, streaks, VoteParty, Bedrock support, and 12+ integrations — all in a single JAR.
+Built-in Votifier receiver, vote shop, streaks, VoteParty, Bedrock Forms, and 12+ integrations — one JAR, zero dependencies.
 
 [Get Started](getting-started/installation.md)
-[View on GitHub](https://github.com/SpeedyAlpaca722/votespeed-docs)
+[GitHub](https://github.com/SpeedyAlpaca722/votespeed-docs)
