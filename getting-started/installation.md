@@ -12,7 +12,7 @@ Choose the JAR file that matches your server platform:
 
 | Your Server Software | Download |
 |---|---|
-| **Paper** (recommended) | `VoteSpeed-1.0.0.jar` |
+| **Paper** (recommended) | `VoteSpeed-Paper-1.0.0.jar` |
 | **Spigot** | `VoteSpeed-Spigot-1.0.0.jar` |
 | **Folia** | `VoteSpeed-Folia-1.0.0.jar` |
 | **BungeeCord** (proxy only) | `VoteSpeed-Bungee-1.0.0.jar` |

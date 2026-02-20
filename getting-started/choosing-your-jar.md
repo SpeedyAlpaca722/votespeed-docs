@@ -6,7 +6,7 @@ VoteSpeed provides separate JAR files for each supported server platform. Choosi
 
 These go into your game server's `plugins/` folder:
 
-### VoteSpeed-1.0.0.jar (Paper)
+### VoteSpeed-Paper-1.0.0.jar (Paper)
 
 - **For:** Paper, Purpur, and other Paper forks
 - **Recommended for:** Most servers
@@ -48,7 +48,7 @@ Do you use a proxy (BungeeCord/Velocity)?
 └── No  → Install only a backend JAR
 
 Which server software?
-├── Paper / Purpur  → VoteSpeed-1.0.0.jar
+├── Paper / Purpur  → VoteSpeed-Paper-1.0.0.jar
 ├── Spigot          → VoteSpeed-Spigot-1.0.0.jar
 └── Folia           → VoteSpeed-Folia-1.0.0.jar
 ```

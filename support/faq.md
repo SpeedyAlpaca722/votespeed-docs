@@ -9,7 +9,7 @@
 ### Which JAR do I need?
 
 See [Choosing Your JAR](../getting-started/choosing-your-jar.md). In short:
-- **Paper/Purpur:** `VoteSpeed-1.0.0.jar`
+- **Paper/Purpur:** `VoteSpeed-Paper-1.0.0.jar`
 - **Spigot:** `VoteSpeed-Spigot-1.0.0.jar`
 - **Folia:** `VoteSpeed-Folia-1.0.0.jar`
 
