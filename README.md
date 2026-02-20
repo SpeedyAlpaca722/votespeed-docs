@@ -1,7 +1,5 @@
 # Welcome to VoteSpeed
 
-<figure><img src=".gitbook/assets/votespeed-banner.png" alt="VoteSpeed Banner"><figcaption></figcaption></figure>
-
 **VoteSpeed** is an all-in-one vote management plugin for Minecraft servers. It includes a built-in NuVotifier receiver, a powerful reward system, a vote shop, vote streaks, VoteParty, and much more — all in a single plugin.
 
 ## Why VoteSpeed?
