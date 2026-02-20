@@ -29,9 +29,9 @@
       --base-font-size: 15px;
       --base-line-height: 1.7;
 
-      --sidebar-background: var(--bg-sidebar);
-      --sidebar-width: 270px;
-      --sidebar-nav-link-color: var(--text-dim);
+      --sidebar-background: #111111;
+      --sidebar-width: 300px;
+      --sidebar-nav-link-color: #c0c0c0;
       --sidebar-nav-link-color--active: #FFFFFF;
       --sidebar-nav-link-color--hover: #FFFFFF;
       --sidebar-nav-link-border-color: transparent;
@@ -41,7 +41,7 @@
       --sidebar-name-color: #FFFFFF;
       --sidebar-name-font-size: 1.2em;
       --sidebar-name-font-weight: 700;
-      --sidebar-border-color: var(--border);
+      --sidebar-border-color: #222222;
       --sidebar-border-width: 1px;
 
       --content-max-width: 840px;
@@ -98,83 +98,106 @@
 
     /* Sidebar */
     .sidebar {
-      background: var(--bg-sidebar) !important;
-      border-right: 1px solid var(--border) !important;
+      background: #111111 !important;
+      border-right: 1px solid #222222 !important;
     }
 
     .sidebar .app-name {
-      padding: 20px 16px 8px;
+      padding: 24px 20px 16px;
     }
 
     .sidebar .app-name-link {
       color: #FFFFFF !important;
       -webkit-text-fill-color: #FFFFFF;
       font-weight: 700;
-      font-size: 1.15em;
+      font-size: 1.25em;
     }
 
-    .sidebar .search { padding: 4px 12px 12px; }
+    .sidebar .search { padding: 0 16px 16px; }
 
     .sidebar .search input {
-      background: var(--bg-main) !important;
-      border: 1px solid var(--border) !important;
-      border-radius: 8px !important;
+      background: #1a1a1a !important;
+      border: 1px solid #333333 !important;
+      border-radius: 6px !important;
       padding: 8px 12px !important;
       font-size: 13px !important;
-      color: var(--text) !important;
+      color: #E0E0E0 !important;
       transition: border-color 0.15s;
       width: 100% !important;
     }
 
     .sidebar .search input:focus {
-      border-color: var(--primary) !important;
+      border-color: #555555 !important;
       outline: none !important;
       box-shadow: none !important;
     }
 
-    .sidebar .search input::placeholder { color: var(--text-muted) !important; }
+    .sidebar .search input::placeholder { color: #666666 !important; }
 
     /* Sidebar Section Titles */
     .sidebar-nav > ul > li > p {
       font-weight: 600;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--text-muted) !important;
-      margin: 18px 0 4px 16px;
-      padding: 0;
+      font-size: 12px;
+      color: #888888 !important;
+      margin: 0;
+      padding: 16px 20px 8px;
+      border-top: 1px solid #222222;
     }
 
-    /* Sidebar Links - Dashboard style: rounded-lg, px-4 py-2.5 */
+    .sidebar-nav > ul > li:first-child > p {
+      border-top: none;
+    }
+
+    /* Sidebar Links */
     .sidebar-nav li > a {
-      font-size: 13.5px;
-      color: var(--text-dim) !important;
-      padding: 8px 16px;
-      margin: 1px 8px;
-      transition: all 0.15s;
+      font-size: 14px;
+      color: #c0c0c0 !important;
+      padding: 9px 20px 9px 40px;
+      margin: 0;
+      transition: color 0.15s, background 0.15s;
       display: block;
       line-height: 1.5;
-      border-radius: 8px;
+      border-radius: 0;
       border: none;
+      white-space: normal;
+      word-wrap: break-word;
+      overflow: visible;
     }
 
     .sidebar-nav li > a:hover {
       color: #FFFFFF !important;
-      background: var(--border-hover) !important;
+      background: #1a1a1a !important;
     }
 
     .sidebar-nav li > a.active {
       color: #FFFFFF !important;
       font-weight: 500;
-      background: var(--primary) !important;
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      background: #1a1a1a !important;
+      border-left: 3px solid var(--primary);
+      padding-left: 37px;
     }
 
-    /* Sub-items in sidebar */
+    /* Sub-items in sidebar (auto-generated from headings) */
     .sidebar-nav li ul li > a {
-      padding: 5px 16px 5px 28px;
-      font-size: 12.5px;
-      margin: 0 8px;
+      font-size: 13px;
+      padding: 6px 20px 6px 52px;
+      color: #999999 !important;
+    }
+
+    .sidebar-nav li ul li > a:hover {
+      color: #FFFFFF !important;
+    }
+
+    .sidebar-nav li ul li > a.active {
+      color: #FFFFFF !important;
+      border-left: none;
+      padding-left: 52px;
+    }
+
+    /* Collapse arrow styling */
+    .sidebar-nav li.collapse > a,
+    .sidebar-nav li.open > a {
+      font-weight: 500;
     }
 
     /* Content */
@@ -426,7 +449,7 @@
       loadSidebar: '_sidebar.md',
       coverpage: '_coverpage.md',
       onlyCover: false,
-      subMaxLevel: 2,
+      subMaxLevel: 0,
       auto2top: true,
       search: {
         placeholder: 'Search...',
