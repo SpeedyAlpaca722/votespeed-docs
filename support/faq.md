@@ -9,9 +9,9 @@
 ### Which JAR do I need?
 
 See [Choosing Your JAR](../getting-started/choosing-your-jar.md). In short:
-- **Paper/Purpur:** `VoteSpeed-Paper-1.0.0.jar`
-- **Spigot:** `VoteSpeed-Spigot-1.0.0.jar`
-- **Folia:** `VoteSpeed-Folia-1.0.0.jar`
+- **Paper/Purpur:** [`VoteSpeed-Paper-1.0.0.jar`](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0)
+- **Spigot:** [`VoteSpeed-Spigot-1.0.0.jar`](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0)
+- **Folia:** [`VoteSpeed-Folia-1.0.0.jar`](https://github.com/SpeedyAlpaca722/VoteSpeed/releases/tag/v1.0.0)
 
 ### Does VoteSpeed work with Folia?
 
